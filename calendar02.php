@@ -19,13 +19,13 @@
 
     <script>
         var firebaseConfig = {
-            apiKey: "AIzaSyAiT79gE5s9X28UQszXEEqCx9wNcB_SY00",
+            apiKey: "",
             authDomain: "sample-ee6e1.firebaseapp.com",
             databaseURL: "https://sample-ee6e1-default-rtdb.firebaseio.com",
             projectId: "sample-ee6e1",
             storageBucket: "sample-ee6e1.appspot.com",
-            messagingSenderId: "734929865290",
-            appId: "1:734929865290:web:4fcc246156ae7a9c7ff4b3"
+            messagingSenderId: "",
+            appId: ""
         };
         firebase.initializeApp(firebaseConfig);
 
@@ -59,8 +59,8 @@
             var detailsEl = document.getElementById('details');
             var calendar = new FullCalendar.Calendar(calendarEl, {
                 initialView: 'dayGridMonth',
-                googleCalendarApiKey: 'AIzaSyAiT79gE5s9X28UQszXEEqCx9wNcB_SY00',
-                events:'9afbdeaa2683ae8311b0d35314aaad55b48c0b93c7d26467f2668e360895dfb8@group.calendar.google.com',
+                googleCalendarApiKey: '',
+                events:'',
 
                 // カレンダー・クリックイベント
                 eventClick: function(info) {
