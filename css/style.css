@@ -1,0 +1,36 @@
+calendar{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.d_reports-echo {
+    display: flex;
+    list-style-type: none;
+}
+.d_reports-echo li {
+    margin-right: 10px; /* 右のマージンを追加して、リスト項目間にスペースを作ります */
+}
+
+#chatBox {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.message {
+    max-width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.user {
+    align-self: flex-end;
+    background-color: #DCF8C6;
+}
+.other {
+    background-color: #FFFFFF;
+}
