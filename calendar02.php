@@ -8,8 +8,6 @@
     <script src="index.global.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
 </head>
 <body>
 
@@ -18,16 +16,6 @@
 
 
     <script>
-        var firebaseConfig = {
-            apiKey: "",
-            authDomain: "sample-ee6e1.firebaseapp.com",
-            databaseURL: "https://sample-ee6e1-default-rtdb.firebaseio.com",
-            projectId: "sample-ee6e1",
-            storageBucket: "sample-ee6e1.appspot.com",
-            messagingSenderId: "",
-            appId: ""
-        };
-        firebase.initializeApp(firebaseConfig);
 
         var currentEventId;
 
